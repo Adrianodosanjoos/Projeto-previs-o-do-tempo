@@ -5,7 +5,6 @@ padding: 0;
 
 box-sizing: border-box;
 
-font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 
 }
@@ -32,7 +31,7 @@ body {
     border: none;
     outline: none;
     padding: 10px;
-    border-radius: 25;
+    border-radius: 25px;
     font-size: 20px;
     background-color: #7c7c7c2b;
     color: #ffffff;
@@ -40,7 +39,7 @@ body {
 
 }
 
-.botão-busca{ 
+.botao-busca{ 
     border: none;
     outline: none;
     padding: 10px;
@@ -51,7 +50,7 @@ body {
 
 }
 
-.img-busca{ width: 30px;
+.img-busca{ height: 20px;
 
 }
 .caixa-media {
@@ -62,12 +61,12 @@ body {
 .cidade{
     color: #ffffff;
     font-size: 28px;
-    font-weight: 300;
+
 
 }
 
 .temp {
-    font-size: 20px;
+
     color: #ffffff;
     margin-top: 20px;
 
@@ -82,12 +81,12 @@ body {
 
  .texto-previão { 
     color: #ffffff;
-    margin-left: 20px;
+    margin-left: 10px;
     text-transform: capitalize;
   
 }
 .umidade  {
     color: #ffffff ;
-    margin-top: 40px;
+    margin-top: 10px;
     
 }

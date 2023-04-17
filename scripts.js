@@ -1,6 +1,6 @@
 
 
-const key = "e10b679863656c37ee97276726f6cd05"
+let key = "e10b679863656c37ee97276726f6cd05"
 
 function colocarDadosNaTela(dados){
     console.log(dados)
@@ -13,13 +13,13 @@ function colocarDadosNaTela(dados){
 
 async function buscarCidade(cidade){
 
-    const dados = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${key}&lang=pt_br&units=metric`).then(resposta => resposta.json())
+    let dados = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${key}&lang=pt_br&units=metric`).then(resposta => resposta.json())
 
     colocarDadosNaTela(dados)
 }
 
 function cliqueinobotao() {
-    const cidade = document.querySelector(".input-cidade").valor
+    let cidade = document.querySelector(".input-cidade").valor
 
     buscarCidade(cidade)
 }
